@@ -4,8 +4,9 @@
 
 # Introduction
 
-#Overview
+# Overview
 
 # Tasks
-* 
+* Explore, clean, analyse in BigQuery SQL
+* Create interactive dashboard in Tableau 
 
