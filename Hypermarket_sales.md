@@ -7,6 +7,6 @@
 # Overview
 
 # Tasks
-* Explore, clean, analyse in BigQuery SQL
+* Explore, clean and analyse dataset in BigQuery SQL
 * Create interactive dashboard in Tableau 
 
