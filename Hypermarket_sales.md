@@ -19,4 +19,6 @@ This project analyzes dummy sales data from hypermarket across European countrie
 * Data is stored in **BigQuery**.
 
 # Data Processing And Cleaning
+[Exploration, cleaning and Analyze process](Exploration_cleaning_analysis.sql) in BigQuery SQL.
+
 
