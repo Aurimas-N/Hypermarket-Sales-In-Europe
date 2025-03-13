@@ -14,11 +14,16 @@ This project analyzes dummy sales data from hypermarket across European countrie
   * Most profitable item type by country.
 
 # Dataset
-* Data is in one `.csv` format file.
+* Data is in one `.xlxs` format file.
 * The dataset contains records: `Country`,	`Item Type`,	`Sales`, `Channel`,	`Order Date`,	`Order ID`,	`Ship Date`,	`Units Sold`,	`Unit Price`,	`Unit Cost`,	`Total Revenue`,	`Total Cost`,	`Total Profit`.
 * Data is stored in **BigQuery**.
+* [Uncleaned data in `.xlxs` format]
 
 # Data Processing And Cleaning
-[Exploration, cleaning and Analyze process](Exploration_cleaning_analysis.sql) in BigQuery SQL.
+* [Exploration, cleaning and Analyze process](Exploration_cleaning_analysis.sql) with BigQuery SQL.
+
+# Share
+
+
 
 
