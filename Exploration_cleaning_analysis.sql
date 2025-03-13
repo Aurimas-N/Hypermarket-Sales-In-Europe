@@ -100,6 +100,10 @@ FROM `hypermarket-sales.sales_data.hypermarket_sales_cleaned`;
 
 
 -----------------------------------------------------------------------------------------------ANALYZE----------------------------------------------------------------------------------------------------------------------
+
+
+
+
 -- Adding new column to find out processing time between order and shipment.
 
 CREATE OR REPLACE TABLE `hypermarket-sales.sales_data.hypermarket_sales_cleaned` AS
