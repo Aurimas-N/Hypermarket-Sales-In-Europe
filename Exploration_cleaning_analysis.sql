@@ -35,6 +35,46 @@ SELECT
 FROM `hypermarket-sales.sales_data.hypermarket_sales`;
 -- there is no anomalies.
 
---CLEANING:
+--Checking for incostistense values:
+SELECT DISTINCT `Item Type`
+FROM `hypermarket-sales.sales_data.hypermarket_sales`;
+
+SELECT DISTINCT `Country`
+FROM `hypermarket-sales.sales_data.hypermarket_sales`;
+
+SELECT DISTINCT `Sales Channel`
+FROM `hypermarket-sales.sales_data.hypermarket_sales`;
+-- no incosistensies found.
+
+-- CLEANING:
+
+-- Checking the row where is missing value, to decide how to deal with it.
+SELECT *
+FROM `hypermarket-sales.sales_data.hypermarket_sales`
+WHERE `Sales Channel` IS NULL;
+
+-- I checked the primary key of the row and since i know what the value is missing in there i replace it with "Online"
+UPDATE `hypermarket-sales.sales_data.hypermarket_sales`
+SET `Sales Channel` = 'Online'
+WHERE `Order ID` = 715309798 AND `Sales Channel` IS NULL;
+
+-- Clearing dublicates by 'Order Id' column.
+
+CREATE OR REPLACE TABLE `hypermarket-sales.sales_data.hypermarket_sales_cleaned` AS
+WITH cte AS (
+  SELECT *,
+         ROW_NUMBER() OVER (PARTITION BY `Order ID` ORDER BY `Order ID`) AS row_num
+  FROM `hypermarket-sales.sales_data.hypermarket_sales`
+)
+SELECT `Country`, `Item Type`, `Sales Channel`, `Order Date`, `Order ID`, 
+       `Ship Date`, `Units Sold`, `Unit Price`, `Unit Cost`, `Total Revenue`, 
+       `Total Cost`, `Total Profit`
+FROM cte
+WHERE row_num = 1;
+-- Finding dublicates by 'Order Id' and keeping only first found row where rest is deleted.
+
 -- 
+
+
+
 
