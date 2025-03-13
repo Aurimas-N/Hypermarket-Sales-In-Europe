@@ -1,4 +1,7 @@
--- EXPLORATION:
+------------------------------------------------------------------------------------------ EXPLORATION---------------------------------------------------------------------------------------------------------------------
+
+
+
 
 -- First of all checking data schema to identify if data types are correct - they are all correct.
 
@@ -46,7 +49,11 @@ SELECT DISTINCT `Sales Channel`
 FROM `hypermarket-sales.sales_data.hypermarket_sales`;
 -- no incosistensies found.
 
+
+
 -- CLEANING:
+
+
 
 -- Checking the row where is missing value, to decide how to deal with it.
 SELECT *
@@ -89,6 +96,12 @@ SELECT
   `Total Cost` AS total_cost,
   `Total Profit` AS total_profit
 FROM `hypermarket-sales.sales_data.hypermarket_sales_cleaned`;
+
+
+
+--ANALYZE:
+
+
 
 
 
