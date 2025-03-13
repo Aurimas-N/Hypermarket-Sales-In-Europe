@@ -17,7 +17,7 @@ This project analyzes dummy sales data from hypermarket across European countrie
 * Data is in one `.xlxs` format file.
 * The dataset contains records: `Country`,	`Item Type`,	`Sales`, `Channel`,	`Order Date`,	`Order ID`,	`Ship Date`,	`Units Sold`,	`Unit Price`,	`Unit Cost`,	`Total Revenue`,	`Total Cost`,	`Total Profit`.
 * Data is stored in **BigQuery**.
-* [Uncleaned data in `.xlxs` format](sales_uncleaned.xlsx)
+* [Uncleaned data in `.xlxs` format](sales_uncleaned.xlsx).
 
 # Data Processing And Cleaning
 * [Exploration, cleaning and Analyze process](Exploration_cleaning_analysis.sql) with BigQuery SQL.
