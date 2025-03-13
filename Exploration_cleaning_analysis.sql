@@ -71,9 +71,24 @@ SELECT `Country`, `Item Type`, `Sales Channel`, `Order Date`, `Order ID`,
        `Total Cost`, `Total Profit`
 FROM cte
 WHERE row_num = 1;
--- Finding dublicates by 'Order Id' and keeping only first found row where rest is deleted.
+-- Finding dublicates by 'Order Id' and keeping only first found row where rest is deleted. Checked again for dublicates and there are 0.
 
--- 
+-- Changing the headers and columns to lower case, except country name. Changing space between words with "_".
+CREATE OR REPLACE TABLE `hypermarket-sales.sales_data.hypermarket_sales_cleaned_lowercase` AS
+SELECT 
+  `Country` AS country,
+  LOWER(`Item Type`) AS item_type,
+  LOWER(`Sales Channel`) AS sales_channel,
+  `Order ID` AS order_id,
+  `Order Date` AS order_date,
+  `Ship Date` AS ship_date,
+  `Units Sold` AS units_sold,
+  `Unit Price` AS unit_price,
+  `Unit Cost` AS unit_cost,
+  `Total Revenue` AS total_revenue,
+  `Total Cost` AS total_cost,
+  `Total Profit` AS total_profit
+FROM `hypermarket-sales.sales_data.hypermarket_sales_cleaned`;
 
 
 
