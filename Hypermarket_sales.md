@@ -5,7 +5,13 @@ This project analyzes dummy sales data from hypermarket across European countrie
 
 # Tasks
 * Explore, clean and analyse dataset in BigQuery SQL
-* Create interactive dashboard in Tableau that shows: KPI's, regions, monthly sales, top selling products,processing time between order and shipment, most profitable item type by country.
+* Create interactive dashboard in Tableau that shows:
+  * KPI's
+  * Regions
+  * Monthly sales
+  * Top selling products
+  * Processing time between order and shipment
+  * Most profitable item type by country.
 
 # Dataset
 * Data is in one `.csv` format file.
