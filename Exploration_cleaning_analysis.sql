@@ -100,7 +100,24 @@ FROM `hypermarket-sales.sales_data.hypermarket_sales_cleaned`;
 
 
 -----------------------------------------------------------------------------------------------ANALYZE----------------------------------------------------------------------------------------------------------------------
---- 
+-- Adding new column to find out processing time between order and shipment.
+
+CREATE OR REPLACE TABLE `hypermarket-sales.sales_data.hypermarket_sales_cleaned` AS
+SELECT 
+  `country`,
+  `item_type`,
+  `sales_channel`,
+  `order_id`,
+  `order_date`,
+  `ship_date`,
+  DATE_DIFF(CAST(`ship_date` AS DATE), CAST(`order_date` AS DATE), DAY) AS processing_time,
+  `units_sold`,
+  `unit_price`,
+  `unit_cost`,
+  `total_revenue`,
+  `total_cost`,
+  `total_profit`,
+FROM `hypermarket-sales.sales_data.hypermarket_sales_cleaned_lowercase`;
 
 
 
