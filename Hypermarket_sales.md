@@ -11,7 +11,7 @@ This project analyzes dummy sales data from hypermarket across European countrie
   * Monthly sales
   * Top selling products
   * Processing time between order and shipment
-  * Most profitable item type by country.
+  * Most profitable item type by country
 
 # Dataset
 * Data is in one `.xlxs` format file.
@@ -26,6 +26,8 @@ This project analyzes dummy sales data from hypermarket across European countrie
 * Column `processing_time` that shows difference in days between order and shipment is added.
 
 # Share
+
+
 
 
 
