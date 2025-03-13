@@ -21,6 +21,7 @@ This project analyzes dummy sales data from hypermarket across European countrie
 
 # Data Processing And Cleaning
 * [Exploration, cleaning and Analyze process](Exploration_cleaning_analysis.sql) with BigQuery SQL.
+* Column `processing_time` that shows difference in days between order and shipment is added.
 
 # Share
 
