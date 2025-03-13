@@ -20,7 +20,9 @@ This project analyzes dummy sales data from hypermarket across European countrie
 * [Uncleaned data in `.xlxs` format](sales_uncleaned.xlsx).
 
 # Data Processing And Cleaning
-* [Exploration, cleaning and Analyze process](Exploration_cleaning_analysis.sql) with BigQuery SQL.
+* Data is uploaded to **BigQuery** for exploration, cleaning and analysis by using **SQL**.
+* Data vizualisation was developed with **Tableau**.
+* [Exploration, cleaning and Analyze process](Exploration_cleaning_analysis.sql) with **BigQuery SQL**.
 * Column `processing_time` that shows difference in days between order and shipment is added.
 
 # Share
