@@ -23,7 +23,7 @@ This project analyzes dummy sales data about products sales to hypermarkets acro
 
 # Data Processing And Cleaning
 * Data is uploaded to **BigQuery** for exploration, cleaning and analysis by using **SQL**.
-* Data vizualisation was developed with **Tableau**.
+* [Data vizualisation was developed](https://public.tableau.com/app/profile/aurimas.naujalis/viz/SalesToHypermarketsInEurope/SalesToHypremarketsInEurope) with **Tableau**.
 * [Exploration, cleaning and Analyze process](Exploration_cleaning_analysis.sql) with **BigQuery SQL**.
 * Column `processing_time` that shows difference in days between order and shipment is added.
 
