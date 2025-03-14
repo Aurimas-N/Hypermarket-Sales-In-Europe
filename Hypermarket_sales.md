@@ -1,7 +1,7 @@
 # Hypermarket Sales In Europe Countries Project
 
 # Introduction
-This project analyzes dummy sales data from hypermarket across European countries. The data was cleaned and processed using SQL, then visualized through an interactive sales dashboard to uncover key insights.
+This project analyzes dummy sales data about products sales to hypermarkets across European countries. The data was cleaned and processed using SQL, then visualized through an interactive sales dashboard to uncover key insights.
 
 # Tasks
 * Explore, clean and analyse dataset in BigQuery SQL
