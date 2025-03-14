@@ -10,6 +10,6 @@ This project analyzes dummy data of hypermarket sales across European countries 
 ## Links
 Direct links to:
 * [Main project file](Hypermarket_sales.md)
-* [Exploration, cleaning and analysis process file]
-* [Tableau published dashboard website]
-* [Uncleaned data in .xlsx format file]
+* [Exploration, cleaning and analysis process file](Exploration_cleaning_analysis.sql)
+* [Tableau published dashboard website](https://public.tableau.com/app/profile/aurimas.naujalis/viz/SalesToHypermarketsInEurope/SalesToHypremarketsInEurope)
+* [Uncleaned data in .xlsx format file](
