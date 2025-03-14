@@ -9,6 +9,7 @@ This project analyzes dummy data of hypermarket sales across European countries 
 * **Project Management**: GitHub
 ## Links
 Direct links to:
-* [Main project file]
+* [Main project file](Hypermarket_sales.md)
 * [Exploration, cleaning and analysis process file]
 * [Tableau published dashboard website]
+* [Uncleaned data in .xlsx format file]
