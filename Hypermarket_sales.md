@@ -16,7 +16,7 @@ This project analyzes dummy sales data about products sales to hypermarkets acro
 
 # Dataset
 * Data is in one `.xlxs` format file.
-* Data is between 2010-2017 years.
+* Data is between **2010-2017 years**.
 * The dataset contains records: `Country`,	`Item Type`,	`Sales`, `Channel`,	`Order Date`,	`Order ID`,	`Ship Date`,	`Units Sold`,	`Unit Price`,	`Unit Cost`,	`Total Revenue`,	`Total Cost`,	`Total Profit`.
 * Data is stored in **BigQuery**.
 * [Uncleaned data in `.xlxs` format](sales_uncleaned.xlsx).
@@ -33,7 +33,7 @@ This project analyzes dummy sales data about products sales to hypermarkets acro
 
 ## Conclusion
 
-
+This project provided valuable insights into hypermarket sales across European countries by leveraging SQL for data cleaning and Tableau for visualization. The interactive dashboard effectively highlights key performance metrics, including total sales, profit trends, top-selling products, and processing time analysis.
 
 
 
