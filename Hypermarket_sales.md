@@ -29,6 +29,9 @@ This project analyzes dummy sales data about products sales to hypermarkets acro
 
 # Share
 
+![Sales To Hypermarkets Europe](https://github.com/user-attachments/assets/375cf3cc-108f-4f21-bb61-63cea470c3dd)
+
+## Conclusion
 
 
 
