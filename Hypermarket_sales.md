@@ -12,6 +12,7 @@ This project analyzes dummy sales data from hypermarket across European countrie
   * Top selling products and profit they bring
   * Average processing time between order and shipment
   * Average order value
+  * Filters to find direct month of year and country
 
 # Dataset
 * Data is in one `.xlxs` format file.
