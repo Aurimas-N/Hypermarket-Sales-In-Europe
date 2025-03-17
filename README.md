@@ -1,4 +1,4 @@
-# Hypermarket Sales In Europe Project
+# Sales To Hypermarkets In Europe Project
 
 ## Overview
 This project analyzes dummy data of sales to hypermarkets across European countries using SQL for data cleaning and Tableau for visualization. The interactive dashboard highlights key insights, including sales and profit trends, top-selling products, processing time analysis, and seasonal patterns. The findings help identify high-performing regions and products.
