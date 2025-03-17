@@ -20,9 +20,9 @@ SELECT
   COUNT(*) - COUNT(`Total Cost`) AS missing_Total_Cost,
   COUNT(*) - COUNT(`Total Profit`) AS missing_Total_Profit
 FROM `hypermarket-sales.sales_data.hypermarket_sales`;
--- As a result i found there is one missing value in Sales Channel column, it will be fixes in cleaning process.
+-- As a result i found there is one missing value in Sales Channel column, it will be fixed in cleaning process.
 
--- Checking for dublicates in Order Id column because its our primary key:
+-- Checking for dublicates in Order Id column, because its our primary key:
 SELECT Order_ID, COUNT(*) AS count
 FROM `hypermarket-sales.sales_data.hypermarket_sales`
 GROUP BY Order_ID
