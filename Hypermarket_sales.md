@@ -33,7 +33,7 @@ This project analyzes dummy sales data about products sales to hypermarkets acro
 
 ## Conclusion
 
-This project provided valuable insights into hypermarket sales across European countries by leveraging SQL for data cleaning and Tableau for visualization. The interactive dashboard effectively highlights key performance metrics, including total sales, profit trends, top-selling products, and processing time between order date and ship date.
+This project provided valuable insights into sales across hypermarkets in European countries by leveraging SQL for data cleaning and Tableau for visualization. The interactive dashboard effectively highlights key performance metrics, including total sales, profit trends, top-selling products, and processing time between order date and ship date.
 
 
 
